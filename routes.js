@@ -2,7 +2,9 @@ const express = require('express');
 
 const app = express();
 
-
+app.get('/pokemon', (req, res) => {
+  return res.send('🆑🆑🆑🆑🆑🆑🆑🆑');
+})
 
 
 
